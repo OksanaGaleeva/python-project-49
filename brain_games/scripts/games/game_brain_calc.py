@@ -1,26 +1,7 @@
 import prompt
 import random
 
-def main():
-    print('Welcome to the Brain Games!')
-    name_user = welcome_user()
-    print('What is the result of the expression?')
-    engine(name_user)
-
-
-def engine(name_user):
-    number_answer = number()
-    if number_answer == True:
-        x = 0
-        while number_answer == True and x < 2:
-            x = x + 1
-            number_answer = number()
-        print("Congratulations, " + name_user + "!")
-        return
-    print("Let's try again, " + name_user + "!")
-
-
-def number():
+def calc_game():
     a = random.randint(1, 10)
     b = random.randint(1, 10)
     y = random.randint(1, 3)
@@ -47,9 +28,3 @@ def number():
     else:
         print(str(answer) + ' is wrong answer ;(. Correct answer was ' + str(right_answer) + '.')
         return False
-
-
-def welcome_user():
-    name = prompt.string('May I have your name? ')
-    print('Hello, ' + name + '!')
-    return name
