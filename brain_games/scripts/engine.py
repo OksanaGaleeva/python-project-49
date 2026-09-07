@@ -11,6 +11,7 @@ def engine(game_func, welcome_answer):
         while number_answer == True and x < 2:
             x = x + 1
             number_answer = game_func()
-        print("Congratulations, " + name + "!")
-        return
+        if number_answer == True:
+            print("Congratulations, " + name + "!")
+            return
     print("Let's try again, " + name + "!")

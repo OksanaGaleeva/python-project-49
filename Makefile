@@ -1,6 +1,6 @@
 # Makefile
 install:
-	uv sync
+	uv sync --active
 
 build:
 	uv build
@@ -19,3 +19,6 @@ brain-even:
 
 brain-calc:
 	uv run brain-calc
+
+brain-gcd:
+	uv run brain-gcd
