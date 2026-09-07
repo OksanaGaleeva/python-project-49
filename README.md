@@ -7,3 +7,6 @@
 
 ### Brain even
 [![asciicast](https://asciinema.org/a/7qy9CQL7NR5NrZum.svg)](https://asciinema.org/a/7qy9CQL7NR5NrZum)
+
+### Brain gcd
+[![asciicast](https://asciinema.org/a/9dvU6NtCK9EX9V0l.svg)](https://asciinema.org/a/9dvU6NtCK9EX9V0l)
